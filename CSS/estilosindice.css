@@ -5,12 +5,13 @@
 .envoltorio{
     width: 100%;
     margin: 0 auto;
-    border: #8C6E4A solid;
+    border: #8C6E4A solid 1.5px;
 }
 /*Header*/
 .envoltorio header img{
     width: 100%;
 }
+/*------------------------*/
 /*Hoja main*/
 .envoltorio .contenido{
     display: flex;
@@ -18,8 +19,8 @@
     justify-content: space-around;
     flex-direction: row;
     min-height: 1000px;
-    border-top: #8C6E4A solid 2.5px;
-    border-bottom: #8C6E4A solid 2.5px;
+    border-top: #8C6E4A solid 1.8px;
+    border-bottom: #8C6E4A solid 1.8px;
 }
 .contenido aside{
     padding: 0px 8px 0px;
@@ -28,14 +29,81 @@
     flex: 1 1 20%;
     background-color: #E0E1E6;
 }
+/*------------------------*/
+/*main con indice dentro*/
 .contenido main{
     padding: 0px 8px 0px;
     flex: 1 1 60%;
     background-color: #EBEBEB;
-    border-right: #8C6E4A solid 2.5px;
-    border-left: #8C6E4A solid 2.5px;
+    border-right: #8C6E4A solid 1.8px;
+    border-left: #8C6E4A solid 1.8px;
+}
+.contenido main h2{
+    text-align: center;
+}
+/*indice*/
+#indicefotos {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#indicefotos .index{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex: row;
+    margin: 30px auto;
+}
+#indicefotos .index p{
+    flex: 1 1 80%;
+    padding: 7px;
+}
+#indicefotos .index #induno{
+    border: #573C09 solid 1.5px;
+    margin: 0 auto;
+    min-width: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+    background-image: url(../IMAGENES/icono.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffefe0;
+    flex: 1 1 20%;
+}
+#indicefotos .index #inddos{
+    border: #573C09 solid 1.5px;
+    margin: 0 auto;
+    min-width: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+    background-image: url(../IMAGENES/icono.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffefe0;
+    flex: 0 0 20%;
+}
+#indicefotos .index #indtres{
+    border: #573C09 solid 1.5px;
+    margin: 0 auto;
+    min-width: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    min-height: 120px;
+    background-image: url(../IMAGENES/icono.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffefe0;
+    flex: 1 1 20%;
 }
 
+/*------------------------*/
 /*Footer*/
 .envoltorio footer #contenidofooter{
     display: flex;
@@ -46,11 +114,12 @@
     color:#573C09;
 }
 #contenidofooter section{
-    border:#8C6E4A solid 1.5px;
+    border-left: #573C09 solid 0.5px;
+    border-right: #573C09 solid 0.5px;
     padding: 5px;
     text-align: center;
 }
-
+/*------------------------*/
 /*aside derecha con publicidad*/
 .contenido #asdech{
     flex: 1 1 20%;
@@ -64,7 +133,7 @@
     flex-direction: column;
 }
 #publicidadsect .publi{
-    border: #573C09 solid;
+    border: #573C09 solid 1px;
     margin: 20px auto;
     min-width: 150px;
     min-height: 150px;
@@ -90,3 +159,4 @@
     background-repeat: no-repeat;
     background-color: #ffefe0;
 }
+/*------------------------*/
