@@ -1,10 +1,20 @@
 *{
 box-sizing: border-box;
+width: 100%;
+margin: 0%;
 }
+
 .envoltorio footer #contenidofooter{
     display: flex;
     align-items: stretch;
     justify-content: space-around;
     flex-direction: row;
-    background-color: rgb(235, 204, 255);
+    background-color: #ffefe0;
+    color:#573C09;
+}
+#contenidofooter section{
+    border-left: #573C09 solid 0.5px;
+    border-right: #573C09 solid 0.5px;
+    padding: 5px;
+    text-align: center;
 }
