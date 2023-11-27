@@ -9,7 +9,7 @@ margin: 0%;
     align-items: stretch;
     justify-content: space-around;
     flex-direction: row;
-    background-color: #ffefe0;
+    
     color:#573C09;
 }
 #contenidofooter section{
@@ -17,4 +17,5 @@ margin: 0%;
     border-right: #573C09 solid 0.5px;
     padding: 5px;
     text-align: center;
+    background-color: #ffefe0;
 }
