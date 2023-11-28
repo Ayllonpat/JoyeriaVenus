@@ -56,11 +56,18 @@
     color:#573C09;
 }
 #contenidofooter section{
-    border-left: #573C09 solid 0.5px;
-    border-right: #573C09 solid 0.5px;
     padding: 5px;
     text-align: center;
     width: 100%;
+}
+#contenidofooter section a{
+    color:#8C6E4A;
+}
+#contenidofooter #ogcont{
+    border-right: #573C09 solid 0.5px;
+}
+#contenidofooter #contactrrss{
+    border-left: #573C09 solid 0.5px;
 }
 /*------------------------*/
 /*aside derecha con publicidad*/
