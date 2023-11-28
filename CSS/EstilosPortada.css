@@ -1,21 +1,27 @@
 *{
 box-sizing: border-box;
-width: 100%;
-margin: 0%;
 }
-
+.envoltorio{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+.envoltorio main img{
+    width: 100%;
+}
 .envoltorio footer #contenidofooter{
+    
     display: flex;
     align-items: stretch;
     justify-content: space-around;
     flex-direction: row;
-    
+    background-color: #ffefe0;
     color:#573C09;
+    
 }
 #contenidofooter section{
     border-left: #573C09 solid 0.5px;
     border-right: #573C09 solid 0.5px;
     padding: 5px;
     text-align: center;
-    background-color: #ffefe0;
 }
