@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrusel</title>
     <link rel="stylesheet" type="text/css" href="../../CSS/estilopadre.css">
     <style type="text/css">
-        .contenido main h2{
+        .contenido main h2 {
             font-size: 24pt;
         }
-        .contenido main p{
+
+        .contenido main p {
             font-size: 12pt;
             text-align: end;
             padding-right: 20px;
         }
-        .contenido main a{
+
+        .contenido main a {
             text-decoration: none;
-            color:#573C09;
+            color: #573C09;
         }
-        .contenido .carrusel{
+
+        .contenido .carrusel {
             border: 1px #8C6E4A solid;
             margin: 100px auto 30px auto;
             width: 85%;
@@ -27,30 +31,53 @@
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            justify-content:space-between;
+            justify-content: space-between;
             align-items: center;
             background-image: url(../../IMAGENES/piezas/candado.webp);
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
         }
-        .carrusel div img{
+
+        .carrusel div img {
             max-width: 50px;
             max-height: 50px;
         }
-        .carrusel div #flechaizq{
+
+        .carrusel div #flechaizq {
             flex: 1 1 50%;
         }
-        .carrusel div #flechadech{
+
+        .carrusel div #flechadech {
             flex: 1 1 50%;
         }
-        #numero{
+
+        #numero {
             text-align: center;
+        }
+
+        #asizq #nav {
+            margin: 60px auto;
+        }
+
+        #asizq #nav h3 {
+            text-align: center;
+        }
+
+        #asizq #nav li {
+            list-style-type: circle;
+            padding: 7px;
+            color: #573C09;
+        }
+
+        #nav a {
+            text-decoration: none;
         }
     </style>
 </head>
+
 <body>
-    
+
     <div class="envoltorio">
         <header>
             <img src="../../IMAGENES/JOYERIA_VENUS.png">
@@ -58,22 +85,38 @@
 
         <div class="contenido">
             <aside id="asizq">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quo ut nobis atque quas, natus porro
-                    veniam fugiat unde mollitia placeat molestias esse, minus consectetur perferendis? Neque eligendi
-                    assumenda blanditiis.</p>
+                <div id="nav">
+                    <h3>Índice de navegación</h3>
+                    <nav>
+                        <a href="../Index.html" target="_self">
+                            <li>Al índice</li>
+                        </a>
+                        <a href="./NuevaColección1.html" target="_self">
+                            <li>Nuestra nueva colección</li>
+                        </a>
+                        <a href="../ProductosMásVendidos.html" target="_self">
+                            <li>Nuestros productos más vendidos</li>
+                        </a>
+                        <a href="../JoyasHistoricas.html" target="_self">
+                            <li>Joyería histórica</li>
+                        </a>
+                    </nav>
+                </div>
             </aside>
             <main>
-            <h2 id="ancla6">Nuestra nueva colección</h2>
-            <div class="carrusel">
-            <div id="flechaizq">
-                <a href="./NuevaColección5.html#ancla5" target="_self"><img src="../../IMAGENES/left.png"></a>
-            </div>
-            <div id="flechadech">
-                <a href="./NuevaColección1.html#ancla1" target="_self"><img src="../../IMAGENES/right.png"></a>
-            </div>
-            </div>
-            <p id="numero">6/6</p> 
-            <a href="./NuevaColección1.html#ancla1" target="_self"><p>A la página principal</p></a>       
+                <h2 id="ancla6">Nuestra nueva colección</h2>
+                <div class="carrusel">
+                    <div id="flechaizq">
+                        <a href="./NuevaColección5.html#ancla5" target="_self"><img src="../../IMAGENES/left.png"></a>
+                    </div>
+                    <div id="flechadech">
+                        <a href="./NuevaColección1.html#ancla1" target="_self"><img src="../../IMAGENES/right.png"></a>
+                    </div>
+                </div>
+                <p id="numero">6/6</p>
+                <a href="./NuevaColección1.html#ancla1" target="_self">
+                    <p>A la página principal</p>
+                </a>
             </main>
             <aside id="asdech">
                 <section id="publicidadsect">
@@ -111,4 +154,5 @@
     </div>
 
 </body>
+
 </html>
