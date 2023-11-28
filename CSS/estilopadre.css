@@ -49,7 +49,7 @@
 /*Footer*/
 .envoltorio footer #contenidofooter{
     display: flex;
-    align-items: stretch;
+    align-items: safe;
     justify-content: space-around;
     flex-direction: row;
     background-color: #ffefe0;
@@ -60,6 +60,7 @@
     border-right: #573C09 solid 0.5px;
     padding: 5px;
     text-align: center;
+    width: 100%;
 }
 /*------------------------*/
 /*aside derecha con publicidad*/

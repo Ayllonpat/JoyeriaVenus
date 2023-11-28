@@ -1,6 +1,7 @@
 *{
 box-sizing: border-box;
 }
+
 .envoltorio{
     display: flex;
     flex-direction: column;
@@ -8,15 +9,20 @@ box-sizing: border-box;
 }
 .envoltorio main img{
     width: 100%;
+    border: #573C09 solid 0.5px;
+    margin: 0%;
 }
 .envoltorio footer #contenidofooter{
     
+    border: #573C09 solid 0.5px;
     display: flex;
-    align-items: stretch;
+    align-items: safe;
     justify-content: space-around;
     flex-direction: row;
     background-color: #ffefe0;
     color:#573C09;
+    margin-top: 0%;
+    
     
 }
 #contenidofooter section{
@@ -24,4 +30,5 @@ box-sizing: border-box;
     border-right: #573C09 solid 0.5px;
     padding: 5px;
     text-align: center;
+    width: 100%;
 }
